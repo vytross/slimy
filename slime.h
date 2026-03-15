@@ -1,4 +1,5 @@
 #include <stdint.h>
-#include <stdbool.h>
 
-bool isSlimeChunk(int, int, uint64_t);
+int checkSlimeChunk(int, int);
+
+void generateRegion(int*, int, int, int, int);
