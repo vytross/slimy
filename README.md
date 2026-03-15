@@ -3,6 +3,10 @@ This is currently a pretty naive attempt at this problem, largely with stolen co
 
 I have a few ideas that I think are pretty good that will, in theory, speed this up by several orders of magnitude. I don't know yet whether a whole-world search will be possible or not, but I'll give it my best shot.
 
+Estimated whole-world search time: 
+~~10 months~~ 
+6 months
+
 ### TODO
 - Increase speed
 - Implement full check for total spawning spaces instead of just chunks
