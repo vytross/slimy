@@ -1,5 +1,5 @@
 # slimy
-This is currently a pretty naive attempt at this problem, largely with stolen code. Shoutout everyone that's done this before me. Hopefully as time goes on the amount of code that's stolen goes to 0.
+This is currently a pretty naive attempt at this problem, and many have done this before me.
 
 I have a few ideas that I think are pretty good that will, in theory, speed this up by several orders of magnitude. I don't know yet whether a whole-world search will be possible or not, but I'll give it my best shot.
 
