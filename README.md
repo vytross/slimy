@@ -5,7 +5,8 @@ I have a few ideas that I think are pretty good that will, in theory, speed this
 
 Estimated whole-world search time: 
 ~~10 months~~ 
-6 months
+~~6 months~~
+40 days
 
 ### TODO
 - Increase speed
