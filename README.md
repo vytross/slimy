@@ -7,11 +7,11 @@ Estimated whole-world search time:
 ~~10 months~~ 
 ~~6 months~~
 ~~40 days~~
-7 days
+~~7 days~~
+
+Update: someone else already made code that can do a whole-world search. My new job is to try and make my code as better as possible. Currently I think I'm the only one that's implemented a counter for the true maximum number of spawning spaces (including changing the player's y level) at the cost of my code being unbearably slow.
 
 ### TODO
-- Increase speed
-- Implement full check for total spawning spaces instead of just chunks
 - Increase speed
 - Add version control for better height resolution
 - Add edge case detection (mushroom islands, deep dark in newer versions)
