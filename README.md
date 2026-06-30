@@ -1,21 +1,23 @@
 # slimy
-This is currently a pretty naive attempt at this problem, and many have done this before me.
+An attempt at making a blazingly fast slime cluster finder. Implements some simple GPU parallelization for a roughly 5X speedup, but it's still pretty fast even in CPU-only mode.
 
-I have a few ideas that I think are pretty good that will, in theory, speed this up by several orders of magnitude. I don't know yet whether a whole-world search will be possible or not, but I'll give it my best shot.
+Currently this is the only searching tool that I've come across that actually searches across varying y-levels for the true optimal spawning spaces. On the technicality that it searches a 25X greater volume than everyone else, this is *technically* the fastest slime searcher ever made B).
+
+Still a WIP; many improvements to be made to the UI and some potentially algorithmically too, if I can think of more stuff. I'm sure I will.
 
 Estimated whole-world search time: 
 ~~10 months~~ 
 ~~6 months~~
 ~~40 days~~
 ~~7 days~~
-
-Update: someone else already made code that can do a whole-world search. My new job is to try and make my code as better as possible. Currently I think I'm the only one that's implemented a counter for the true maximum number of spawning spaces (including changing the player's y level) at the cost of my code being unbearably slow.
+9.5 hours
 
 ### TODO
+- Add simple GUI for easier use
 - Increase speed
+- Turn it into a proper CMake setup so people can actually compile it themselves
 - Add version control for better height resolution
+- Increase speeed
 - Add edge case detection (mushroom islands, deep dark in newer versions)
 - Add pack spawning score mechanic
 - Increase speed
-- Add simple GUI for easier use
-- Increase speed 
